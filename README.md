@@ -8,7 +8,7 @@ The other scripts are mainly used for collecting wifi data, plotting a heatmap, 
 
 For convenience:
 - wpaspy.py, iw_parse.py: borrowed code from respective sources, needed for wpa supplicant socket control and for the pretty print methods, respectively 
-- net.py: contains methods for controlling the wifi interface (scanning, parsiong scan, parsing preconfigured networks, connecting)
+- net.py: contains methods for controlling the wifi interface (scanning, parsing scan, parsing preconfigured networks, connecting)
 - netmode.py: contains code to plot a rather simple drawing of a map of the NETMODE NTUA laboratory
 - positions.py: contains a mapping from actual positions in the NETMODE NTUA laboratory to relative positions (unique id, X Y coordinates)
 - fingerprinting.py: used for creating the WIFI Fingreprints database. It saves results to positions.csv file by default, usage->run script and then for each relative position in the positions.py file, enter position and wait for a couple of seconds to gather data
